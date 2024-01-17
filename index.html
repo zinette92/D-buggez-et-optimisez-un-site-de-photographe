@@ -1,159 +1,420 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nina Carducci</title>
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-	<script defer src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script defer src="./assets/maugallery.js"></script>
-	<script defer src="./assets/scripts.js"></script>
-</head>
-<body>
-<div class="top-header">
-	<h1 class="name">Nina Carducci</h1>
-	<div class="nav">   
-		<ul>
-			<li><a href="#about">À propos</a></li>
-			<li><a href="#gallery">Galerie</a></li>
-			<li><a href="#services">Service</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Logo Instagram"></a></li>
-		</ul>
-	</div>
-</div>
-<div id="header">
-
-	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./assets/images/slider/photo-homme-costume-dos.webp" class="d-block w-100" alt="Un homme de dos en costume">
-			</div>
-			<div class="carousel-item">
-				<img loading="lazy" src="./assets/images/slider/photo-public-pendant-spectacle.webp" class="d-block w-100" alt="Un public en train d'assister à un spectacle">
-			</div>
-			<div class="carousel-item">
-				<img loading="lazy" src="./assets/images/slider/photo-maries-pendant-ceremonie.webp" class="d-block w-100" alt="Des mariés en train de s'embrasser">
-			</div>
-		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
-	</div>
-</div>
-<div id="about">
-	<div class="picture left">
-		<img src="./assets/images/nina-carducci.webp" alt="Photographe Nina Carducci">
-	</div>
-	<div id="about-me">
-		<h2 class="about-me__title">A propos de moi</h2>
-		<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
-		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
-			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-	</div>
-</div>
-<div id="gallery">
-	<h2 class="title">Portfolio</h2>
-	<div class="container py-3">
-		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/photo-spectacle.webp" alt="Un groupe de musique durant sa représentation"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/photo-homme-costume-face.webp" alt="Un homme de face en costume"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/photo-femme-travaillant.webp" alt="Une femme en train de sourire"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/maries-se-tenant-les-mains.webp" alt="Un homme et une femme se donnant les mains"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/zoom-visage-homme.webp" alt="Zoom sur le visage d'un homme"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/maries-se-tenant-par-le-bras.webp" alt="Mariés se tenant la main"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/femme-prenant-la-pose.webp" alt="Une femme prenant la pose"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/photo-artiste.webp" alt="Artiste durant sa représentation"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/photo-femme-en-reunion.webp" alt="Une femme en train de travailler"/>
-		</div>
-	</div>
-	<div class="quote">
-		<figure>
-			<blockquote>
-				<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
-			</blockquote>
-			<figcaption class="quote__author">- Richard Avedon</figcaption>
-		</figure>
-	</div>
-</div>
-<div id="services">
-	<h2 class="title">Mes services</h2>
-	<div class="container">
-		<div class="service">
-			<div class="service__description">
-				<h3>Shooting photo</h3>
-				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
-			</div>
-			<div class="service__price">
-				<h4>350€/demi journée</h4>
-				<p>Matériel, déplacement inclus</p>
-			</div>
-
-		</div>
-		<div class="service">
-			<div class="service__description">
-				<h3>Retouches</h3>
-				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
-			</div>
-			<div class="service__price">
-				<h4>50€/photo</h4>
-				<p>2 AR par photo</p>
-			</div>
-		</div>
-		<div class="service">
-			<div class="service__description">
-				<h3>Album photos</h3>
-				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
-			</div>
-			<div class="service__price">
-				<h4>400€ album A4</h4>
-				<p>30 pages recto/verso</p>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="quote">
-	<figure>
-		<blockquote>
-			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
-		</blockquote>
-		<figcaption class="quote__author">- Richard Avedon</figcaption>
-	</figure>
-</div>
-<div id="contact">
-	<div class="container">
-		<div class="form-container">
-			<h2>Une question ? Une demande de devis ?</h2>
-			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-			<form action="" method="post">
-				<label for="nom">Nom</label>
-				<input type="text" name="nom" id="nom">
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email">
-				<label for="message">Message</label>
-				<textarea name="message" id="message" cols="30" rows="10"></textarea>
-				<input type="submit" value="Envoyer"/>
-			</form>
-		</div>
-		<div class="picture right">
-			<img src="./assets/images/camera.webp" alt="Image d'un appareil photo">
-		</div>
-	</div>
-</div>
-</body>
+  <head>
+    <title>Nina Carducci - Photographe professionnelle à Bordeaux</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" >
+    <meta name="language" content="fr-FR" >
+    <meta
+      name="description"
+      content="Nina Carducci, experte photographe à Bordeaux. Séances photo, retouches professionnelles, albums photo sur mesure. Contactez-moi dès maintenant afin de discuter de votre projet photographique."
+    >
+    <meta name="robots" content="all" >
+    <meta property="og:url" content="https://nina-carducci.github.io/" >
+    <meta property="og:type" content="website" >
+    <meta
+      property="og:title"
+      content="Nina Carducci - Photographe professionnelle à Bordeaux"
+    >
+    <meta
+      property="og:description"
+      content="Nina Carducci, experte photographe à Bordeaux. Séances photo, retouches professionnelles, albums photo sur mesure. Contactez-moi dès maintenant afin de discuter de votre projet photographique."
+    >
+    <meta property="og:image" content="assets/images/nina_carducci_logo.png" >
+    <meta property="og:locale:alternate" content="fr_FR" >
+    <meta name="twitter:card" content="summary_large_image" >
+    <meta name="twitter:site" content="@ninacarducci" >
+    <meta
+      name="twitter:title"
+      content="Nina Carducci - Photographe professionnelle à Bordeaux"
+    >
+    <meta
+      name="twitter:description"
+      content="Nina Carducci, experte photographe à Bordeaux. Séances photo, retouches professionnelles, albums photo sur mesure. Contactez-moi dès maintenant afin de discuter de votre projet photographique."
+    >
+    <meta name="twitter:image" content="assets/images/nina_carducci_logo.png" >
+	<meta name="twitter:image:alt" content="Nina Carducci - Photographe professionnelle">
+    <meta name="twitter:url" content="https://nina-carducci.github.io/" >
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" >
+    <link rel="stylesheet" href="./assets/style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      rel="stylesheet"
+    >
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Nina Carducci",
+        "description": "Devenir photographe était pour moi une évidence...",
+        "additionalName": "Nous passons notre vie à chercher le bonheur...",
+        "image": "./assets/images/nina-carducci.webp"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci - Photographe",
+        "image": "assets/images/nina_carducci_logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressCountry": "FR",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "postalCode": "33200"
+        },
+        "priceRange": "50-400",
+        "openingHours": "Mo-Fr 10:00-19:00",
+        "telephone": "05 56 67 78 89"
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
+        <h1 class="name">Nina Carducci</h1>
+        <nav>
+          <div class="nav">
+            <ul>
+              <li><a href="#about">À propos</a></li>
+              <li><a href="#gallery">Galerie</a></li>
+              <li><a href="#services">Service</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+                  target="_blank"
+                  ><img src="assets/images/instagram.png" alt="Logo Instagram"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="header">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/images/slider/photo-homme-costume-dos.webp"
+                class="d-block w-100"
+                alt="Un homme de dos en costume"
+              >
+            </div>
+            <div class="carousel-item">
+              <img
+                loading="lazy"
+                src="./assets/images/slider/photo-public-pendant-spectacle.webp"
+                class="d-block w-100"
+                alt="Un public en train d'assister à un spectacle"
+              >
+            </div>
+            <div class="carousel-item">
+              <img
+                loading="lazy"
+                src="./assets/images/slider/photo-maries-pendant-ceremonie.webp"
+                class="d-block w-100"
+                alt="Des mariés en train de s'embrasser"
+              >
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div id="about">
+        <div class="picture left">
+          <img
+            src="./assets/images/nina-carducci.webp"
+            alt="Photographe Nina Carducci"
+          >
+        </div>
+        <div id="about-me">
+          <h2 class="about-me__title">Nina Carducci - Photographe créative</h2>
+          <p class="about-me__introduction">
+            Devenir photographe était pour moi une évidence. Comme si j’y étais
+            prédestiné. Saisir un moment, une émotion, une situation, un
+            endroit, une lumière et les rendre immortels, voilà ce qui me fait
+            vibrer.
+          </p>
+          <p>
+            La recherche du bonheur guide notre existence, et figer ces moments
+            exceptionnels dans des photographies devient une manière précieuse
+            de les préserver. En tant que photographe passionnée, je vous
+            propose une expérience unique. Mon regard artistique, mon approche
+            personnalisée et ma technique experte se conjuguent pour
+            immortaliser vos instants. Des shootings photo authentiques, des
+            retouches soignées et la création d'albums sur mesure font partie
+            intégrante de mes services. Chaque cliché que je capture est conçu
+            pour vous envelopper d'une atmosphère empreinte d'amour, de bonheur,
+            de tendresse, et de lumière.
+          </p>
+        </div>
+      </div>
+      <div id="gallery">
+        <h2 class="title">Galerie d'images</h2>
+        <div class="container py-3">
+          <div class="gallery" style="display: none">
+            <img
+              loading="lazy"
+              data-gallery-tag="Concert"
+              class="gallery-item"
+              src="./assets/images/gallery/concerts/photo-spectacle.webp"
+              alt="Un groupe de musique durant sa représentation"
+            >
+            <img
+              loading="lazy"
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/photo-homme-costume-face.webp"
+              alt="Un homme de face en costume"
+            >
+            <img
+              loading="lazy"
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/photo-femme-travaillant.webp"
+              alt="Une femme en train de sourire"
+            >
+            <img
+              loading="lazy"
+              data-gallery-tag="Mariages"
+              class="gallery-item"
+              src="./assets/images/gallery/mariage/maries-se-tenant-les-mains.webp"
+              alt="Un homme et une femme se donnant les mains"
+            >
+            <img
+              loading="lazy"
+              data-gallery-tag="Portrait"
+              class="gallery-item"
+              src="./assets/images/gallery/portraits/zoom-visage-homme.webp"
+              alt="Zoom sur le visage d'un homme"
+            >
+            <img
+              loading="lazy"
+              data-gallery-tag="Mariages"
+              class="gallery-item"
+              src="./assets/images/gallery/mariage/maries-se-tenant-par-le-bras.webp"
+              alt="Mariés se tenant la main"
+            >
+            <img
+              loading="lazy"
+              data-gallery-tag="Portrait"
+              class="gallery-item"
+              src="./assets/images/gallery/portraits/femme-prenant-la-pose.webp"
+              alt="Une femme prenant la pose"
+            >
+            <img
+              loading="lazy"
+              data-gallery-tag="Concert"
+              class="gallery-item"
+              src="./assets/images/gallery/concerts/photo-artiste.webp"
+              alt="Artiste durant sa représentation"
+            >
+            <img
+              loading="lazy"
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/photo-femme-en-reunion.webp"
+              alt="Une femme en train de travailler"
+            >
+          </div>
+        </div>
+        <div class="quote">
+          <figure>
+            <blockquote>
+              <p class="quote__text">
+                Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
+                ou qu’un fait est traduit en photo, il cesse d’être un fait pour
+                devenir une opinion. L’inexactitude n’existe pas en
+                photographie. Toutes les photos sont exactes. Aucune d’elles
+                n’est la vérité.
+              </p>
+            </blockquote>
+            <figcaption class="quote__author">- Richard Avedon</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div id="services">
+        <h2 class="title">Mes services</h2>
+        <div class="container">
+          <div class="service">
+            <div class="service__description">
+              <h3>Shooting photo</h3>
+              <p>
+                Offrez-vous des souvenirs inoubliables en images. Basée en
+                Île-de-France, je me déplace pour concrétiser votre projet
+                photographique avec soin et professionnalisme.
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>350€/demi journée</h4>
+              <p>Matériel, déplacement inclus</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service__description">
+              <h3>Retouches</h3>
+              <p>
+                Vous désirez sublimer vos photos avec une touche professionnelle
+                ? Obtenez un rendu optimal qui mettra en valeur chaque détail de
+                vos photos.
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>50€/photo</h4>
+              <p>2 AR par photo</p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service__description">
+              <h3>Album photos</h3>
+              <p>
+                Créez des souvenirs inoubliables à partager avec vos proches et
+                clients à travers un album photo personnalisé.
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>400€ album A4</h4>
+              <p>30 pages recto/verso</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="quote">
+        <figure>
+          <blockquote>
+            <p class="quote__text">
+              De manière inconsciente, je crois, je guette un regard, une
+              expression, des traits ou une nostalgie capable de résumer ou plus
+              exactement de révéler une vie
+            </p>
+          </blockquote>
+          <figcaption class="quote__author">- Richard Avedon</figcaption>
+        </figure>
+      </div>
+      <div id="contact">
+        <div class="container">
+          <div class="form-container">
+            <h2>Besoin d'un photographe ? Contactez-moi dés maintenant.</h2>
+            <p>
+              N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24
+              heures
+            </p>
+            <form action="#" method="post">
+              <label for="nom">Nom</label>
+              <input type="text" name="nom" id="nom" >
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" >
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <input type="submit" value="Envoyer" >
+            </form>
+          </div>
+          <div class="picture right">
+            <img
+              loading="lazy"
+              src="./assets/images/camera.webp"
+              alt="Image d'un appareil photo"
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="contact-information">
+      <section class="sub-footer">
+        <h3>Liens</h3>
+        <ul>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="sub-footer">
+        <h3>Horaires et Contact</h3>
+        <ul>
+          <li>Lundi au Vendredi - 10 h à 19 h</li>
+          <li>68 avenue Alsace-Lorraine, 33200 Bordeaux</li>
+          <li>05 56 67 78 89</li>
+        </ul>
+      </section>
+      <section class="sub-footer">
+        <h3>Réseaux sociaux</h3>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+              target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </section>
+    </footer>
+    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/maugallery.js"></script>
+    <script src="./assets/scripts.js"></script>
+  </body>
 </html>
